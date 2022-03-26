@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Icon-60" translatesAutoresizingMaskIntoConstraints="NO" id="LZx-N2-xRb">
+                                <rect key="frame" x="88.5" y="333.5" width="237" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LZx-N2-xRb" secondAttribute="height" multiplier="291:277" constant="-3.5740072202166289" id="D73-bf-CFI"/>
+                                    <constraint firstAttribute="height" constant="229" id="Otw-hl-PdI"/>
+                                    <constraint firstAttribute="width" constant="237" id="QnA-LJ-Pfb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="igT-SO-G0L">
+                                <rect key="frame" x="80" y="84" width="255" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="igT-SO-G0L" secondAttribute="height" multiplier="85:36" id="I8j-QQ-KWu"/>
+                                    <constraint firstAttribute="width" constant="255" id="W7C-Ve-lSs"/>
+                                    <constraint firstAttribute="height" constant="108" id="gS3-2i-Lcp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LZx-N2-xRb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="A8w-zS-Ssm"/>
+                            <constraint firstItem="LZx-N2-xRb" firstAttribute="top" secondItem="igT-SO-G0L" secondAttribute="bottom" constant="141.5" id="WRu-wy-qsz"/>
+                            <constraint firstItem="LZx-N2-xRb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XnU-bJ-0fr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="igT-SO-G0L" secondAttribute="trailing" constant="79" id="bWg-pz-8Xd"/>
+                            <constraint firstItem="igT-SO-G0L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="dUK-vY-h5l"/>
+                            <constraint firstItem="igT-SO-G0L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="m8k-AZ-64B"/>
+                            <constraint firstItem="LZx-N2-xRb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pCb-fI-QEu"/>
+                            <constraint firstItem="LZx-N2-xRb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yeR-YR-LOK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-60" width="60" height="60"/>
+        <image name="instagram_logo" width="255" height="108"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
