@@ -22,6 +22,7 @@
 		EB9FB2F727ED460200D37210 /* Parstagram_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9FB2F627ED460200D37210 /* Parstagram_IOSTests.swift */; };
 		EB9FB30127ED460200D37210 /* Parstagram_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9FB30027ED460200D37210 /* Parstagram_IOSUITests.swift */; };
 		EB9FB30327ED460200D37210 /* Parstagram_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9FB30227ED460200D37210 /* Parstagram_IOSUITestsLaunchTests.swift */; };
+		EBB79FAB27F79A4A00F9A1F3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB79FAA27F79A4A00F9A1F3 /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		EB9FB2FC27ED460200D37210 /* Parstagram_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Parstagram_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9FB30027ED460200D37210 /* Parstagram_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parstagram_IOSUITests.swift; sourceTree = "<group>"; };
 		EB9FB30227ED460200D37210 /* Parstagram_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parstagram_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBB79FAA27F79A4A00F9A1F3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				EB3EE2E127EE4431005A1DC2 /* LoginViewController.swift */,
 				EB3EE2E527EE66EE005A1DC2 /* CameraViewController.swift */,
 				EB3EE2E327EE4451005A1DC2 /* FeedViewController.swift */,
+				EBB79FAA27F79A4A00F9A1F3 /* CommentCell.swift */,
 				EB9FB2E827ED460200D37210 /* Assets.xcassets */,
 				EB9FB2EA27ED460200D37210 /* LaunchScreen.storyboard */,
 				EB9FB2ED27ED460200D37210 /* Info.plist */,
@@ -421,6 +424,7 @@
 				EB3EE2E427EE4451005A1DC2 /* FeedViewController.swift in Sources */,
 				EB9FB2E227ED460100D37210 /* SceneDelegate.swift in Sources */,
 				EB3EE2E827EE94A6005A1DC2 /* PostCell.swift in Sources */,
+				EBB79FAB27F79A4A00F9A1F3 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
